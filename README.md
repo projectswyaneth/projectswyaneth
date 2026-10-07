@@ -95,20 +95,12 @@ Detection stages run at independent frame intervals, so four tasks stay real-tim
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td colspan="2" valign="top">
 
 ### ⚙️ [Ultra-Precision V/I Meter](https://github.com/projectswyaneth/ultra-precision-vi-meter)
 High-precision current and voltage measurement for electronics work.
 
 **C · Embedded**
-
-</td>
-<td width="50%" valign="top">
-
-### 🍼 cPebble — Infant Safety Wearable
-ESP32 wearable: DS18B20 dual temperature sensing and MAX30100 heart-rate / SpO₂ monitoring, with live readings on an on-board OLED.
-
-**ESP32 · C++ · Sensors**
 
 </td>
 </tr>
