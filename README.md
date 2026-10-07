@@ -34,7 +34,6 @@
 
 <br>
 
-![Profile views](https://komarev.com/ghpvc/?username=projectswyaneth&label=PROFILE%20VIEWS&color=1D4ED8&style=for-the-badge)
 ![Followers](https://img.shields.io/github/followers/projectswyaneth?label=FOLLOWERS&style=for-the-badge&color=F2B705&labelColor=0A1428)
 ![Stars](https://img.shields.io/github/stars/projectswyaneth?label=STARS&style=for-the-badge&color=1D4ED8&labelColor=0A1428)
 
@@ -57,7 +56,6 @@ I learn by building. Whatever I pick up ends up inside something that actually r
 - 🛰️ Team lead of **Falconyx** — finalists at **IgnitX by Hutch 2026** with [StaySignal](https://github.com/projectswyaneth/staysignal)
 - 📚 Studying Supervised Machine Learning (Stanford / DeepLearning.AI) and industrial **PLC automation** (CGTT Rathmalana)
 - 🌙 Just finished a hybrid classical + deep-learning [low-light image denoiser](https://github.com/projectswyaneth/low-light-image-denoising) for **Mora SP Cup 2026**
-- 🤖 Building a micromouse robot for **PeraBots 2026**
 - 🤝 Keen to connect with engineers and researchers, and to contribute to substantive engineering work
 
 ---
@@ -119,9 +117,21 @@ On top of that sits a **472 K-parameter residual U-Net** that predicts the noise
 <td width="50%" valign="top">
 
 ### ⚙️ [Ultra-Precision V/I Meter](https://github.com/projectswyaneth/ultra-precision-vi-meter)
-High-precision current and voltage measurement for electronics work.
+**STM32 bench instrument · bare-metal firmware**
 
-**C · Embedded**
+A handheld meter reading DC voltage to four decimal places and current down to microamps, on a 16×2 LCD with Bluetooth telemetry to a phone.
+
+![Voltage](https://img.shields.io/badge/voltage-0.1_mV_steps-1D4ED8?labelColor=0A1428)
+![Current](https://img.shields.io/badge/current-25_%C2%B5A%2Fbit-1D4ED8?labelColor=0A1428)
+![MCU](https://img.shields.io/badge/STM32F401-no_RTOS-F2B705?labelColor=0A1428)
+
+The resolution comes from refusing to trust a raw ADC read. Every displayed value is the mean of 16 conversions (√N noise reduction), minus a zero-offset measured from **512 samples at first boot** and kept in a `.noinit` RAM section behind a magic word — so it survives a reset instead of recalibrating every power-up. Current goes to an **INA226** across a 0.1 Ω shunt, hardware-averaged before the MCU ever reads it.
+
+The LCD is only rewritten where a digit actually changed, so a steady reading sits perfectly still rather than flickering between neighbouring counts.
+
+**C · STM32 HAL · INA226 · I²C · UART · PCB design**
+
+[Repository](https://github.com/projectswyaneth/ultra-precision-vi-meter)
 
 </td>
 </tr>
