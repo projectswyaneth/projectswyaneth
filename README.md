@@ -23,12 +23,19 @@
 
 <br>
 
+[![GitHub](https://img.shields.io/badge/GITHUB-555?style=for-the-badge&logo=github&logoColor=white&labelColor=0A1428)](https://github.com/projectswyaneth)
+[![Projects](https://img.shields.io/badge/PROJECTS-1D4ED8?style=for-the-badge)](https://github.com/projectswyaneth?tab=repositories)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-555?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A1428)](https://www.linkedin.com/in/yaneth-de-alwis-277951368)
-[![Connect](https://img.shields.io/badge/CONNECT-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/yaneth-de-alwis-277951368)
-[![Email](https://img.shields.io/badge/EMAIL-555?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0A1428)](mailto:YOUR_EMAIL_HERE)
-[![Contact](https://img.shields.io/badge/CONTACT-D93025?style=for-the-badge)](mailto:YOUR_EMAIL_HERE)
+[![Connect](https://img.shields.io/badge/CONNECT-F2B705?style=for-the-badge&labelColor=F2B705)](https://www.linkedin.com/in/yaneth-de-alwis-277951368)
+[![Email](https://img.shields.io/badge/EMAIL-555?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0A1428)](mailto:hansinduyaneth699@gmail.com)
+[![Contact](https://img.shields.io/badge/CONTACT-1D4ED8?style=for-the-badge)](mailto:hansinduyaneth699@gmail.com)
+
 [![Live demo](https://img.shields.io/badge/LIVE_DEMO-555?style=for-the-badge&logo=netlify&logoColor=white&labelColor=0A1428)](https://staysignalbyfalconyx.netlify.app)
 [![StaySignal](https://img.shields.io/badge/STAYSIGNAL-F2B705?style=for-the-badge&labelColor=F2B705)](https://staysignalbyfalconyx.netlify.app)
+[![Facebook](https://img.shields.io/badge/FACEBOOK-555?style=for-the-badge&logo=facebook&logoColor=white&labelColor=0A1428)](https://www.facebook.com/FACEBOOK_USERNAME)
+[![Follow](https://img.shields.io/badge/FOLLOW-1D4ED8?style=for-the-badge)](https://www.facebook.com/FACEBOOK_USERNAME)
+[![Instagram](https://img.shields.io/badge/INSTAGRAM-555?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0A1428)](https://www.instagram.com/INSTAGRAM_USERNAME)
+[![Follow](https://img.shields.io/badge/FOLLOW-F2B705?style=for-the-badge&labelColor=F2B705)](https://www.instagram.com/INSTAGRAM_USERNAME)
 
 <br>
 
@@ -54,6 +61,7 @@ I learn by building. Whatever I pick up ends up inside something that actually r
 
 - 🛰️ Team lead of **Falconyx** — finalists at **IgnitX by Hutch 2026** with [StaySignal](https://github.com/projectswyaneth/staysignal)
 - 📚 Studying Supervised Machine Learning (Stanford / DeepLearning.AI) and industrial **PLC automation** (CGTT Rathmalana)
+- 🌙 Just finished a hybrid classical + deep-learning [low-light image denoiser](https://github.com/projectswyaneth/low-light-image-denoising) for **Mora SP Cup 2026**
 - 🤖 Building a micromouse robot for **PeraBots 2026**
 - 🤝 Keen to connect with engineers and researchers, and to contribute to substantive engineering work
 
@@ -95,7 +103,25 @@ Detection stages run at independent frame intervals, so four tasks stay real-tim
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top">
+<td width="50%" valign="top">
+
+### 🌙 [Low-Light Image Denoising](https://github.com/projectswyaneth/low-light-image-denoising)
+**Mora SP Cup 2026 · Team Falconyx**
+
+Measure the noise before choosing the model. A blind Poisson–Gaussian estimate feeds a Generalised Anscombe Transform, which flattens signal-dependent sensor noise into unit variance — so one denoiser setting works across the whole intensity range instead of needing adaptive strength per brightness.
+
+![Composite](https://img.shields.io/badge/composite-0.5844-1D4ED8?labelColor=0A1428)
+![PSNR](https://img.shields.io/badge/PSNR-%2B9.84_dB-1D4ED8?labelColor=0A1428)
+![vs baseline](https://img.shields.io/badge/vs_baseline-2.7%C3%97-F2B705?labelColor=0A1428)
+
+On top of that sits a **472 K-parameter residual U-Net** that predicts the noise to subtract rather than rebuilding the image — small enough to run tiled on a laptop CPU in 1.27 s per 992×992 frame. Validation on 40 never-trained images caught that longer training was quietly making generalisation *worse*.
+
+**Python · PyTorch · NumPy · scikit-image · OpenCV**
+
+[Repository](https://github.com/projectswyaneth/low-light-image-denoising)
+
+</td>
+<td width="50%" valign="top">
 
 ### ⚙️ [Ultra-Precision V/I Meter](https://github.com/projectswyaneth/ultra-precision-vi-meter)
 High-precision current and voltage measurement for electronics work.
@@ -124,7 +150,9 @@ High-precision current and voltage measurement for electronics work.
 
 **Machine Learning & Computer Vision**
 
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![scikit-image](https://img.shields.io/badge/scikit--image-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 ![YOLOv8](https://img.shields.io/badge/Ultralytics%20YOLO-111F68?style=for-the-badge&logo=yolo&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
