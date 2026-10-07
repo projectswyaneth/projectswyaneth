@@ -167,12 +167,21 @@ ESP32 wearable: DS18B20 dual temperature sensing and MAX30100 heart-rate / SpOâ‚
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=projectswyaneth&show_icons=true&hide_border=true&bg_color=0A1428&title_color=F2B705&icon_color=F2B705&text_color=E8EDF7&count_private=true" alt="stats" />
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=projectswyaneth&layout=compact&hide_border=true&bg_color=0A1428&title_color=F2B705&text_color=E8EDF7&langs_count=6" alt="top languages" />
 
-<img width="94%" src="https://github-readme-activity-graph.vercel.app/graph?username=projectswyaneth&bg_color=0A1428&color=E8EDF7&line=F2B705&point=1D4ED8&area=true&hide_border=true" alt="activity graph" />
+<img height="165" src="https://streak-stats.demolab.com?user=projectswyaneth&hide_border=true&background=0A1428&stroke=1D4ED8&ring=F2B705&fire=F2B705&currStreakLabel=F2B705&sideLabels=E8EDF7&currStreakNum=E8EDF7&sideNums=E8EDF7&dates=8FA7D8" alt="contribution streak" />
 
 </div>
 
 ---
 
+<!-- ===================================================================
+     3D CONTRIBUTION CALENDAR + SNAKE
+     Switch this on AFTER both GitHub Actions have run successfully:
+       1. Settings > Actions > General > Workflow permissions
+          -> "Read and write permissions" -> Save
+       2. Add .github/workflows/profile-3d.yml and snake.yml
+       3. Actions tab -> run each workflow once
+       4. Delete this comment line and the closing one below
+=====================================================================
 ## ðŸ§Š Contributions in 3D
 
 <div align="center">
@@ -186,6 +195,7 @@ ESP32 wearable: DS18B20 dual temperature sensing and MAX30100 heart-rate / SpOâ‚
 </div>
 
 ---
+===================================================================== -->
 
 ## ðŸŽ¯ Open to
 
