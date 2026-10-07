@@ -16,26 +16,21 @@
 ![Minor](https://img.shields.io/badge/MINOR-555?style=for-the-badge&labelColor=0A1428)
 ![ETE](https://img.shields.io/badge/ELECTRONICS_%26_TELECOMMUNICATION-F2B705?style=for-the-badge&labelColor=F2B705)
 
-![GPA](https://img.shields.io/badge/GPA-555?style=for-the-badge&labelColor=0A1428)
-![3.61](https://img.shields.io/badge/3.61_%2F_4.00_%C2%B7_2%C3%97_DEAN'S_LIST-1D4ED8?style=for-the-badge)
 ![Location](https://img.shields.io/badge/LOCATION-555?style=for-the-badge&labelColor=0A1428)
 ![Sri Lanka](https://img.shields.io/badge/SRI_LANKA-F2B705?style=for-the-badge&labelColor=F2B705)
 
 <br>
 
-[![GitHub](https://img.shields.io/badge/GITHUB-555?style=for-the-badge&logo=github&logoColor=white&labelColor=0A1428)](https://github.com/projectswyaneth)
+[![GitHub](https://img.shields.io/badge/GITHUB-555?style=for-the-badge&logo=github&logoColor=white&labelColor=0A1428)](https://github.com/projectswyaneth?tab=repositories)
 [![Projects](https://img.shields.io/badge/PROJECTS-1D4ED8?style=for-the-badge)](https://github.com/projectswyaneth?tab=repositories)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-555?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A1428)](https://www.linkedin.com/in/yaneth-de-alwis-277951368)
 [![Connect](https://img.shields.io/badge/CONNECT-F2B705?style=for-the-badge&labelColor=F2B705)](https://www.linkedin.com/in/yaneth-de-alwis-277951368)
-[![Email](https://img.shields.io/badge/EMAIL-555?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0A1428)](mailto:hansinduyaneth699@gmail.com)
-[![Contact](https://img.shields.io/badge/CONTACT-1D4ED8?style=for-the-badge)](mailto:hansinduyaneth699@gmail.com)
-
-[![Live demo](https://img.shields.io/badge/LIVE_DEMO-555?style=for-the-badge&logo=netlify&logoColor=white&labelColor=0A1428)](https://staysignalbyfalconyx.netlify.app)
-[![StaySignal](https://img.shields.io/badge/STAYSIGNAL-F2B705?style=for-the-badge&labelColor=F2B705)](https://staysignalbyfalconyx.netlify.app)
-[![Facebook](https://img.shields.io/badge/FACEBOOK-555?style=for-the-badge&logo=facebook&logoColor=white&labelColor=0A1428)](https://www.facebook.com/FACEBOOK_USERNAME)
-[![Follow](https://img.shields.io/badge/FOLLOW-1D4ED8?style=for-the-badge)](https://www.facebook.com/FACEBOOK_USERNAME)
-[![Instagram](https://img.shields.io/badge/INSTAGRAM-555?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0A1428)](https://www.instagram.com/INSTAGRAM_USERNAME)
-[![Follow](https://img.shields.io/badge/FOLLOW-F2B705?style=for-the-badge&labelColor=F2B705)](https://www.instagram.com/INSTAGRAM_USERNAME)
+[![Email](https://img.shields.io/badge/EMAIL-555?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0A1428)](mailto:yanethhansindu699@gmail.com)
+[![Contact](https://img.shields.io/badge/CONTACT-1D4ED8?style=for-the-badge)](mailto:yanethhansindu699@gmail.com)
+[![Facebook](https://img.shields.io/badge/FACEBOOK-555?style=for-the-badge&logo=facebook&logoColor=white&labelColor=0A1428)](https://www.facebook.com/yaneth.hansindu)
+[![Follow](https://img.shields.io/badge/FOLLOW-F2B705?style=for-the-badge&labelColor=F2B705)](https://www.facebook.com/yaneth.hansindu)
+[![Instagram](https://img.shields.io/badge/INSTAGRAM-555?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0A1428)](https://www.instagram.com/_yaneth_h_de_/)
+[![Follow](https://img.shields.io/badge/FOLLOW-1D4ED8?style=for-the-badge)](https://www.instagram.com/_yaneth_h_de_/)
 
 <br>
 
