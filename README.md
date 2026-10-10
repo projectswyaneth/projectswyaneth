@@ -161,6 +161,30 @@ The browser runs the same engine as the Python backend — a JavaScript port ver
 
 </td>
 </tr>
+<tr>
+<td colspan="2" valign="top">
+
+### 👶 [cPebble — Smart Child Safety Band](https://github.com/projectswyaneth/cpebble)
+**Two-band wearable: vitals and location, parent to child**
+
+A child band and a parent band. The child band reads heart rate, body temperature and GPS position, packs them into one telemetry packet every two seconds, and sends it over **ESP-NOW** — peer to peer, no Wi-Fi router, so it keeps working in a park or a power cut where anything router-based goes dark.
+
+![Link](https://img.shields.io/badge/link-ESP--NOW_peer_to_peer-1D4ED8?labelColor=0A1428)
+![Telemetry](https://img.shields.io/badge/telemetry-every_2_s-1D4ED8?labelColor=0A1428)
+![Band](https://img.shields.io/badge/enclosure-3D_printed-F2B705?labelColor=0A1428)
+
+The parent band joins Wi-Fi and serves its own dashboard showing the child on Google Maps alongside live vitals, with an optional Firebase path feeding an Android app. Heart rate is a rolling average over 10 beats rather than a raw per-beat reading, so the number on screen stays steady enough to act on.
+
+My part was the sensing subsystem on the child band: DS18B20 temperature over OneWire and a MAX30102 pulse sensor over I²C on an ESP32-C3.
+
+**ESP32-C3 · C++ · ESP-NOW · I²C · OneWire · GPS · Firebase · Android**
+
+> Student prototype, not a medical device.
+
+[Repository](https://github.com/projectswyaneth/cpebble)
+
+</td>
+</tr>
 </table>
 
 > 🔧 **In progress:** *NightDrive Copilot* — question answering and automatic trip reports over night dashcam footage, built on the NightDrive pipeline.
