@@ -45,7 +45,7 @@
 
 I'm an **Electrical & Electronic Engineering** undergraduate at the **University of Sri Jayewardenepura**, with a minor in **Electronics & Telecommunication Engineering**.
 
-I learn by building. Whatever I pick up ends up inside something that actually runs — a churn model a telecom team could act on tomorrow, a lane detector that still finds the road at night. The work I enjoy most sits where **intelligent software meets real hardware**: a model on one side, a camera, a sensor or a microcontroller on the other, and a decision in between that has to be right and explainable.
+I learn by building. Whatever I pick up ends up inside something that actually runs — a churn model a telecom team could act on tomorrow, a lane detector that still finds the road at night, an offloading planner that keeps edge servers from saturating. The work I enjoy most sits where **intelligent software meets real hardware**: a model on one side, a camera, a sensor or a microcontroller on the other, and a decision in between that has to be right and explainable.
 
 **My technical interests**
 
@@ -84,7 +84,7 @@ An explainable linear model that **beats a gradient-boosting benchmark** (0.840)
 </td>
 <td width="50%" valign="top">
 
-### 🌙 NightDrive ADAS
+### 🌙 [NightDrive ADAS](https://github.com/projectswyaneth/nightdrive-adas-vision)
 **Vision-based driver assistance for night driving**
 
 A real-time pipeline on live dashcam video: lane detection tuned for darkness and glare with CLAHE and adaptive thresholding, where fixed-threshold methods fail completely; vehicle detection and classification; distance estimation; and multi-language licence-plate OCR with a sharpness filter that discards unreliable reads rather than reporting wrong ones.
@@ -92,6 +92,8 @@ A real-time pipeline on live dashcam video: lane detection tuned for darkness an
 Detection stages run at independent frame intervals, so four tasks stay real-time together.
 
 **Python · OpenCV · YOLOv8 · Tesseract OCR**
+
+[Repository](https://github.com/projectswyaneth/nightdrive-adas-vision)
 
 </td>
 </tr>
@@ -132,6 +134,30 @@ The LCD is only rewritten where a digit actually changed, so a steady reading si
 **C · STM32 HAL · INA226 · I²C · UART · PCB design**
 
 [Repository](https://github.com/projectswyaneth/ultra-precision-vi-meter)
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### 📡 [MEC Task Offloading Optimizer](https://github.com/projectswyaneth/mec-task-offloading-optimizer)
+**Energy-aware task offloading for 5G mobile edge computing**
+
+Twenty phones, three edge servers, one question: who computes locally and who offloads where? Each device picking its own fastest server looks optimal and isn't — everyone picks the same one, it saturates, and tasks start missing deadlines. Edge servers are shared, so one device's choice changes everyone else's latency.
+
+![Approach](https://img.shields.io/badge/genetic_algorithm-50_pop_%C2%B7_200_gen-1D4ED8?labelColor=0A1428)
+![Late tasks](https://img.shields.io/badge/late_tasks-35_→_12_of_60-F2B705?labelColor=0A1428)
+![Peak load](https://img.shields.io/badge/peak_load-15.7_→_7.3-1D4ED8?labelColor=0A1428)
+
+A genetic algorithm searches whole assignment plans rather than per-device choices, scoring total energy with a hard penalty per missed deadline, and raising its mutation rate when progress stalls. Validated against exhaustive search on small networks, then benchmarked over 60 random ones.
+
+The honest result: **energy came out level with greedy in 47 of 60 networks** — the win is feasibility and load balance, not power. Greedy left a task late in 35 networks against 12, and peaked at 15.7 devices on a 10-device server against 7.3. The GA still scales: 1,000 devices in 3.3 s.
+
+The browser runs the same engine as the Python backend — a JavaScript port verified field-for-field across 9 configurations, so the live demo isn't an approximation of the real solver.
+
+**Python · Flask · JavaScript · Genetic algorithms · Firebase · Netlify**
+
+[Repository](https://github.com/projectswyaneth/mec-task-offloading-optimizer)
 
 </td>
 </tr>
