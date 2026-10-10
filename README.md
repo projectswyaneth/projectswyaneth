@@ -79,7 +79,7 @@ An explainable linear model that **beats a gradient-boosting benchmark** (0.840)
 
 **Python · scikit-learn · Flask · JavaScript · Netlify**
 
-[▶ Live console](https://staysignalbyfalconyx.netlify.app) · [Repository](https://github.com/projectswyaneth/staysignal)
+[▶ Live console](https://staysignal.netlify.app) · [Repository](https://github.com/projectswyaneth/staysignal)
 
 </td>
 <td width="50%" valign="top">
@@ -295,6 +295,6 @@ My part was the sensing subsystem on the child band: DS18B20 temperature over On
 
 <div align="center">
 
-⭐ *Start with* **[StaySignal](https://github.com/projectswyaneth/staysignal)** *— or open the* **[live console](https://staysignalbyfalconyx.netlify.app)**
+⭐ *Start with* **[StaySignal](https://github.com/projectswyaneth/staysignal)** *— or open the* **[live console](https://staysignal.netlify.app)**
 
 </div>
