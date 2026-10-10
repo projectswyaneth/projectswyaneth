@@ -53,7 +53,7 @@ I learn by building. Whatever I pick up ends up inside something that actually r
 
 **Right now**
 
-- 🛰️ Team lead of **Falconyx** — finalists at **IgnitX by Hutch 2026** with [StaySignal](https://github.com/projectswyaneth/staysignal)
+- 🛰️ Team leader of **Falconyx** — finalists at **IgnitX by Hutch 2026** with [StaySignal](https://github.com/projectswyaneth/staysignal)
 - 📚 Studying Supervised Machine Learning (Stanford / DeepLearning.AI) and industrial **PLC automation** (CGTT Rathmalana)
 - 🌙 Just finished a hybrid classical + deep-learning [low-light image denoiser](https://github.com/projectswyaneth/low-light-image-denoising) for **Mora SP Cup 2026**
 - 🤝 Keen to connect with engineers and researchers, and to contribute to substantive engineering work
@@ -138,7 +138,7 @@ The LCD is only rewritten where a digit actually changed, so a steady reading si
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top">
+<td width="50%" valign="top">
 
 ### 📡 [MEC Task Offloading Optimizer](https://github.com/projectswyaneth/mec-task-offloading-optimizer)
 **Energy-aware task offloading for 5G mobile edge computing**
@@ -160,9 +160,7 @@ The browser runs the same engine as the Python backend — a JavaScript port ver
 [Repository](https://github.com/projectswyaneth/mec-task-offloading-optimizer)
 
 </td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
+<td width="50%" valign="top">
 
 ### 👶 [cPebble — Smart Child Safety Band](https://github.com/projectswyaneth/cpebble)
 **Two-band wearable: vitals and location, parent to child**
@@ -289,7 +287,7 @@ My part was the sensing subsystem on the child band: DS18B20 temperature over On
 
 ## 🌱 Beyond the code
 
-- 🏆 **Team lead, Falconyx** — finalists, IgnitX by Hutch 2026
+- 🏆 **Team leader, Falconyx** — finalists, IgnitX by Hutch 2026
 - 💼 **Treasurer**, IEEE Signal Processing Society Student Chapter, USJ — ran the MATWave MATLAB/DSP workshop series
 - 🧩 **Core Team Leader**, IET on Campus, University of Sri Jayewardenepura
 - 🤝 **Member**, Industrial Relations Committee, IEEE PES Student Chapter, USJ
